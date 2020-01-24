@@ -2,15 +2,21 @@
 
 **Proceso Cilindro**
 
+Proceso Cilindro
+
 	//Volumen de un cilindro=  Base* altura o V= Pi*r^2h
 	
 	//Área de cilindro= 2*pi*r* (h+r)
 	
 	Definir P, r, h, V, A Como Real
 	
-	Escribir "Introduzca el radio de la base del cilindro y la altura separado por una coma"
+	Escribir "Introduzca el radio de la base del cilindro en metros"
 	
-	Leer r, h
+	Leer r
+	
+	Escribir "Introduzca la altura del cilindro en metros"
+	
+	Leer h
 	
 	P<-3.1415
 	
@@ -18,11 +24,12 @@
 	
 	A<-2 *P * r * (h+r)
 	
-	Escribir "El volumen del cilindro es", V
+	Escribir "El volumen del cilindro en metros cúbicos es:", V
 	
-	Escribir "El área del cilindro es", A
+	Escribir "El área del cilindro en metros cuadrados es:", A
 	
 FinProceso
+
 
 
 
@@ -30,7 +37,7 @@ FinProceso
 
 Proceso Promedioponderado
 
-	Definir P1, P2, Participa, Final, N1, N2, N3, N4 Como Real
+	Definir P1, P2, Participa, Final, N1, N2, N3, N4, PP Como Real
 	
 	P1<-0.25
 	
@@ -61,3 +68,4 @@ Proceso Promedioponderado
 	Escribir "Su promedio ponderado para este curso es:", pp
 	
 FinProceso
+
