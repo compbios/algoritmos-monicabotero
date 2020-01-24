@@ -1,6 +1,6 @@
 # **Área y volumen de un cilindro**
 
-Proceso Cilindro
+**Proceso Cilindro**
 
 	//Volumen de un cilindro=  Base* altura o V= Pi*r^2h
 	
@@ -26,7 +26,7 @@ FinProceso
 
 
 
-##**Promedio ponderado**
+**Promedio ponderado**
 
 Proceso Promedioponderado
 
